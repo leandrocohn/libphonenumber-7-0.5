@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="93" failures="0" name="com.google.i18n.phonenumbers.PhoneNumberUtilTest" time="0.123" errors="0" skipped="0">
+<testsuite tests="93" failures="0" name="com.google.i18n.phonenumbers.PhoneNumberUtilTest" time="0.098" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -14,10 +14,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/lcohn/Proyectos/HIBU/libPhoneNumber/nue/libphonenumber/java/libphonenumber"/>
+    <property name="user.dir" value="/home/lcohn/Proyectos/HIBU/git-libphonenumber/java/libphonenumber"/>
     <property name="java.runtime.version" value="1.8.0_40-b25"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="basedir" value="/home/lcohn/Proyectos/HIBU/libPhoneNumber/nue/libphonenumber/java/libphonenumber"/>
+    <property name="basedir" value="/home/lcohn/Proyectos/HIBU/git-libphonenumber/java/libphonenumber"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
@@ -28,7 +28,7 @@
     <property name="classworlds.conf" value="/opt/java/apache-maven-3.1.0/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="surefire.test.class.path" value="/home/lcohn/Proyectos/HIBU/libPhoneNumber/nue/libphonenumber/java/libphonenumber/target/test-classes:/home/lcohn/Proyectos/HIBU/libPhoneNumber/nue/libphonenumber/java/libphonenumber/target/classes:/home/lcohn/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:"/>
+    <property name="surefire.test.class.path" value="/home/lcohn/Proyectos/HIBU/git-libphonenumber/java/libphonenumber/target/test-classes:/home/lcohn/Proyectos/HIBU/git-libphonenumber/java/libphonenumber/target/classes:/home/lcohn/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,29 +63,41 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetSupportedRegions" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetSupportedGlobalNetworkCallingCodes" time="0.003"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetInstanceLoadBadMetadata" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testMissingMetadataFileThrowsRuntimeException" time="0.01"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetInstanceLoadUSMetadata" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetInstanceLoadDEMetadata" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetInstanceLoadARMetadata" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetInstanceLoadInternationalTollFreeMetadata" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNumberGeographical" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsLeadingZeroPossible" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetLengthOfGeographicalAreaCode" time="0.002"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetLengthOfNationalDestinationCode" time="0.002"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetCountryMobileToken" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetNationalSignificantNumber" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetExampleNumber" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetExampleNumberForNonGeoEntity" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testConvertAlphaCharactersInNumber" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testCanBeInternationallyDialled" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatE164Number" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatNumberWithExtension" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatInOriginalFormat" time="0.005"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsPremiumRate" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsTollFree" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsMobile" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsFixedLine" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsFixedLineAndMobile" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsSharedCost" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsVoip" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsPersonalNumber" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsUnknown" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsValidNumber" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsValidForRegion" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNotValidNumber" time="0.005"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetRegionCodeForCountryCode" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetRegionCodeForNumber" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetRegionCodesForCountryCode" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetCountryCodeForRegion" time="0.002"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetNationalDiallingPrefixForRegion" time="0.002"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNANPACountry" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsPossibleNumber" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsPossibleNumberWithReason" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNotPossibleNumber" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testTruncateTooLongNumber" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsViablePhoneNumber" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsViablePhoneNumberNonAscii" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testExtractPossibleNumber" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testMaybeStripNationalPrefix" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testMaybeStripInternationalPrefix" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testMaybeExtractCountryCode" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseNationalNumber" time="0.002"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseNumberWithAlphaCharacters" time="0.002"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseMaliciousInput" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseWithInternationalPrefixes" time="0.003"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseNumberWithAlphaCharacters" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseMaliciousInput" time="0.005"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseWithInternationalPrefixes" time="0.005"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseNonAscii" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseWithLeadingZero" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseNationalNumberArgentina" time="0.001"/>
@@ -94,66 +106,54 @@
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFailedParseOnInvalidNumbers" time="0.002"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseNumbersWithPlusWithNoRegion" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseNumberTooShortIfNationalPrefixStripped" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseExtensions" time="0.004"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseExtensions" time="0.003"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseAndKeepRaw" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testParseItalianLeadingZeros" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testCountryWithNoNumberDesc" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testCountryWithNoNumberDesc" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testUnknownCountryCallingCode" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNumberMatchMatches" time="0.003"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNumberMatchNonMatches" time="0.003"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNumberMatchNsnMatches" time="0.002"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNumberMatchShortNsnMatches" time="0.004"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNumberMatchNonMatches" time="0.002"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNumberMatchNsnMatches" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNumberMatchShortNsnMatches" time="0.002"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsAlphaNumber" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsMobileNumberPortableRegion" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testNormaliseRemovePunctuation" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testCanBeInternationallyDialled" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetInstanceLoadDEMetadata" time="0.002"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetInstanceLoadARMetadata" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetInstanceLoadInternationalTollFreeMetadata" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNumberGeographical" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsLeadingZeroPossible" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetLengthOfGeographicalAreaCode" time="0.002"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetLengthOfNationalDestinationCode" time="0.002"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetCountryMobileToken" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetNationalSignificantNumber" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetExampleNumber" time="0.003"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetExampleNumberForNonGeoEntity" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testConvertAlphaCharactersInNumber" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testNormaliseRemovePunctuation" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testNormaliseReplaceAlphaCharacters" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testNormaliseOtherDigits" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testNormaliseStripAlphaCharacters" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testNormaliseStripNonDiallableCharacters" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatUSNumber" time="0.002"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testNormaliseStripNonDiallableCharacters" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatUSNumber" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatBSNumber" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatGBNumber" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatDENumber" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatITNumber" time="0.003"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatAUNumber" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatARNumber" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatMXNumber" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatOutOfCountryCallingNumber" time="0.004"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatITNumber" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatAUNumber" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatARNumber" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatMXNumber" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatOutOfCountryCallingNumber" time="0.002"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatOutOfCountryWithInvalidRegion" time="0.002"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatOutOfCountryWithPreferredIntlPrefix" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatOutOfCountryKeepingAlphaChars" time="0.002"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatOutOfCountryWithPreferredIntlPrefix" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatOutOfCountryKeepingAlphaChars" time="0.004"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatWithCarrierCode" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatWithPreferredCarrierCode" time="0.003"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatWithPreferredCarrierCode" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatNumberForMobileDialing" time="0.003"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatByPattern" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatE164Number" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatNumberWithExtension" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatInOriginalFormat" time="0.004"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsPremiumRate" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsTollFree" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsMobile" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsFixedLine" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsFixedLineAndMobile" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsSharedCost" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsVoip" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsPersonalNumber" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsUnknown" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsValidNumber" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsValidForRegion" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNotValidNumber" time="0.004"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetRegionCodeForCountryCode" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetRegionCodeForNumber" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetRegionCodesForCountryCode" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetCountryCodeForRegion" time="0.003"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetNationalDiallingPrefixForRegion" time="0.005"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNANPACountry" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsPossibleNumber" time="0.005"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsPossibleNumberWithReason" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsNotPossibleNumber" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testTruncateTooLongNumber" time="0.002"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsViablePhoneNumber" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testIsViablePhoneNumberNonAscii" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testExtractPossibleNumber" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testMaybeStripNationalPrefix" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testMaybeStripInternationalPrefix" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testFormatByPattern" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetSupportedRegions" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetSupportedGlobalNetworkCallingCodes" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetInstanceLoadBadMetadata" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testMissingMetadataFileThrowsRuntimeException" time="0.002"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberUtilTest" name="testGetInstanceLoadUSMetadata" time="0"/>
 </testsuite>

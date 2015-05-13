@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="33" failures="0" name="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" time="0.021" errors="0" skipped="0">
+<testsuite tests="33" failures="0" name="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" time="0.033" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -14,10 +14,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/lcohn/Proyectos/HIBU/libPhoneNumber/nue/libphonenumber/java/libphonenumber"/>
+    <property name="user.dir" value="/home/lcohn/Proyectos/HIBU/git-libphonenumber/java/libphonenumber"/>
     <property name="java.runtime.version" value="1.8.0_40-b25"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="basedir" value="/home/lcohn/Proyectos/HIBU/libPhoneNumber/nue/libphonenumber/java/libphonenumber"/>
+    <property name="basedir" value="/home/lcohn/Proyectos/HIBU/git-libphonenumber/java/libphonenumber"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
@@ -28,7 +28,7 @@
     <property name="classworlds.conf" value="/opt/java/apache-maven-3.1.0/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="surefire.test.class.path" value="/home/lcohn/Proyectos/HIBU/libPhoneNumber/nue/libphonenumber/java/libphonenumber/target/test-classes:/home/lcohn/Proyectos/HIBU/libPhoneNumber/nue/libphonenumber/java/libphonenumber/target/classes:/home/lcohn/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:"/>
+    <property name="surefire.test.class.path" value="/home/lcohn/Proyectos/HIBU/git-libphonenumber/java/libphonenumber/target/test-classes:/home/lcohn/Proyectos/HIBU/git-libphonenumber/java/libphonenumber/target/classes:/home/lcohn/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -64,36 +64,36 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testInvalidRegion" time="0.004"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testInvalidPlusSign" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testInvalidPlusSign" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testTooLongNumberMatchingMultipleLeadingDigits" time="0.002"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testCountryWithSpaceInNationalPrefixFormattingRule" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testCountryWithSpaceInNationalPrefixFormattingRuleAndLongNdd" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testCountryWithSpaceInNationalPrefixFormattingRuleAndLongNdd" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFUS" time="0.002"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFUSFullWidthCharacters" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFUSMobileShortCode" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFUSFullWidthCharacters" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFUSMobileShortCode" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFUSVanityNumber" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFAndRememberPositionUS" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFGBFixedLine" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFGBTollFree" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFGBFixedLine" time="0.002"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFGBTollFree" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFGBPremiumRate" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFNZMobile" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFDE" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFAR" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFAR" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFARMobile" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFKR" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFKR" time="0.004"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTF_MX" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTF_International_Toll_Free" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFMultipleLeadingDigitPatterns" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFLongIDD_AU" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFLongIDD_KR" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFLongNDD_KR" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFLongNDD_SG" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFShortNumberFormattingFix_AU" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFShortNumberFormattingFix_KR" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFShortNumberFormattingFix_MX" time="0.001"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFNoNationalPrefix" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFLongIDD_KR" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFLongNDD_KR" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFLongNDD_SG" time="0.003"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFShortNumberFormattingFix_AU" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFShortNumberFormattingFix_KR" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFShortNumberFormattingFix_MX" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFNoNationalPrefix" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFNoNationalPrefixFormattingRule" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFShortNumberFormattingFix_US" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFClearNDDAfterIDDExtraction" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFClearNDDAfterIDDExtraction" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.AsYouTypeFormatterTest" name="testAYTFNumberPatternsBecomingInvalidShouldNotResultInDigitLoss" time="0"/>
 </testsuite>

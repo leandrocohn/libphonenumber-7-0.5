@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="16" failures="0" name="com.google.i18n.phonenumbers.ShortNumberUtilTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="16" failures="0" name="com.google.i18n.phonenumbers.ShortNumberUtilTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -14,10 +14,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/lcohn/Proyectos/HIBU/libPhoneNumber/nue/libphonenumber/java/libphonenumber"/>
+    <property name="user.dir" value="/home/lcohn/Proyectos/HIBU/git-libphonenumber/java/libphonenumber"/>
     <property name="java.runtime.version" value="1.8.0_40-b25"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="basedir" value="/home/lcohn/Proyectos/HIBU/libPhoneNumber/nue/libphonenumber/java/libphonenumber"/>
+    <property name="basedir" value="/home/lcohn/Proyectos/HIBU/git-libphonenumber/java/libphonenumber"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
@@ -28,7 +28,7 @@
     <property name="classworlds.conf" value="/opt/java/apache-maven-3.1.0/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="surefire.test.class.path" value="/home/lcohn/Proyectos/HIBU/libPhoneNumber/nue/libphonenumber/java/libphonenumber/target/test-classes:/home/lcohn/Proyectos/HIBU/libPhoneNumber/nue/libphonenumber/java/libphonenumber/target/classes:/home/lcohn/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:"/>
+    <property name="surefire.test.class.path" value="/home/lcohn/Proyectos/HIBU/git-libphonenumber/java/libphonenumber/target/test-classes:/home/lcohn/Proyectos/HIBU/git-libphonenumber/java/libphonenumber/target/classes:/home/lcohn/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,6 +63,12 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
+  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumber_ZW" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumber_US" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumberLongNumber_US" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumberWithFormatting_US" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumberWithPlusSign_US" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumber_BR" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumberLongNumber_BR" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumber_AO" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumber_ZW" time="0"/>
@@ -73,10 +79,4 @@
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumber_BR" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumberLongNumber_BR" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumber_AO" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumber_ZW" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumber_US" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumberLongNumber_US" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumberWithFormatting_US" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumberWithPlusSign_US" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumber_BR" time="0"/>
 </testsuite>
