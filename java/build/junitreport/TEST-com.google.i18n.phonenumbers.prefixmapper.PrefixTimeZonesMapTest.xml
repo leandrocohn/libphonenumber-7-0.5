@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="gt-Latitude-E5420" name="com.google.i18n.phonenumbers.prefixmapper.PrefixTimeZonesMapTest" tests="7" time="0.005" timestamp="2015-05-13T14:11:06">
+<testsuite errors="0" failures="0" hostname="gt-Latitude-E5420" name="com.google.i18n.phonenumbers.prefixmapper.PrefixTimeZonesMapTest" tests="7" time="0.01" timestamp="2015-05-13T14:58:02">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib" />
@@ -88,7 +88,7 @@
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PrefixTimeZonesMapTest" name="testLookupTimeZonesForNumber_ValidNumber_Chicago" time="0.0" />
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PrefixTimeZonesMapTest" name="testLookupTimeZonesForNumber_LA" time="0.0" />
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PrefixTimeZonesMapTest" name="testLookupTimeZonesForNumber_NY" time="0.0" />
-  <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PrefixTimeZonesMapTest" name="testLookupTimeZonesForNumber_CH" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PrefixTimeZonesMapTest" name="testLookupTimeZonesForNumber_CH" time="0.001" />
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PrefixTimeZonesMapTest" name="testLookupTimeZonesForNumber_RU" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
