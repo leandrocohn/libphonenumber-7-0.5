@@ -63,20 +63,20 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
+  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumber_US" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumberLongNumber_US" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumberWithFormatting_US" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumberWithPlusSign_US" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumber_BR" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumberLongNumber_BR" time="0.001"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumber_AO" time="0"/>
+  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumber_ZW" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumber_US" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumberLongNumber_US" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumberLongNumber_US" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumberWithFormatting_US" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumberWithPlusSign_US" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumber_BR" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumberLongNumber_BR" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumber_AO" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testConnectsToEmergencyNumber_ZW" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumber_US" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumberLongNumber_US" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumberWithPlusSign_US" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumberLongNumber_BR" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.ShortNumberUtilTest" name="testIsEmergencyNumber_ZW" time="0"/>
 </testsuite>

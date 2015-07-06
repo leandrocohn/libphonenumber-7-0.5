@@ -69,5 +69,5 @@
   <testcase classname="com.google.i18n.phonenumbers.PhonenumberTest" name="testNonEqualWithItalianLeadingZeroSetToTrue" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.PhonenumberTest" name="testNonEqualWithDifferingRawInput" time="0"/>
   <testcase classname="com.google.i18n.phonenumbers.PhonenumberTest" name="testNonEqualWithPreferredDomesticCarrierCodeSetToDefault" time="0"/>
-  <testcase classname="com.google.i18n.phonenumbers.PhonenumberTest" name="testEqualWithPreferredDomesticCarrierCodeSetToDefault" time="0.001"/>
+  <testcase classname="com.google.i18n.phonenumbers.PhonenumberTest" name="testEqualWithPreferredDomesticCarrierCodeSetToDefault" time="0"/>
 </testsuite>
