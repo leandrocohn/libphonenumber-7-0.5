@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="gt-Latitude-E5420" name="com.google.i18n.phonenumbers.RegexCacheTest" tests="1" time="0.003" timestamp="2015-05-13T14:58:01">
+<testsuite errors="0" failures="0" hostname="Int-NbDes-LCohn" name="com.google.i18n.phonenumbers.RegexCacheTest" tests="1" time="0.003" timestamp="2015-07-06T17:17:29">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib" />

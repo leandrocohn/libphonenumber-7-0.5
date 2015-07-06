@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="gt-Latitude-E5420" name="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" tests="8" time="0.016" timestamp="2015-05-13T14:58:01">
+<testsuite errors="0" failures="0" hostname="Int-NbDes-LCohn" name="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" tests="8" time="0.024" timestamp="2015-07-06T17:17:29">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib" />
@@ -85,14 +85,14 @@
   </properties>
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" name="testGetNameForMobilePortableRegion" time="0.01" />
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" name="testGetNameForNonMobilePortableRegion" time="0.001" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" name="testGetNameForFixedLineNumber" time="0.001" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" name="testGetNameForFixedOrMobileNumber" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" name="testGetNameForFixedLineNumber" time="0.003" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" name="testGetNameForFixedOrMobileNumber" time="0.001" />
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" name="testGetNameForPagerNumber" time="0.0" />
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" name="testGetNameForNumberWithNoDataFile" time="0.001" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" name="testGetNameForNumberWithMissingPrefix" time="0.0" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" name="testGetNameForInvalidNumber" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" name="testGetNameForInvalidNumber" time="0.001" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToCarrierMapperTest" name="testGetNameForNumberWithMissingPrefix" time="0.002" />
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[may 13, 2015 11:58:01 AM com.google.i18n.phonenumbers.PhoneNumberUtil getRegionCodeForNumber
+  <system-err><![CDATA[jul 06, 2015 2:17:29 PM com.google.i18n.phonenumbers.PhoneNumberUtil getRegionCodeForNumber
 ADVERTENCIA: Missing/invalid country_code (999) for number 2423651234
 ]]></system-err>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="gt-Latitude-E5420" name="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" tests="46" time="3.486" timestamp="2015-05-13T14:57:58">
+<testsuite errors="0" failures="0" hostname="Int-NbDes-LCohn" name="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" tests="46" time="2.997" timestamp="2015-07-06T17:17:26">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib" />
@@ -83,52 +83,52 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="junit" />
   </properties>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesFoundWithMultipleSpaces" time="0.023" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchWithSurroundingZipcodes" time="0.002" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testIsLatinLetter" time="0.005" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithSurroundingLatinChars" time="0.01" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMoneyNotSeenAsPhoneNumber" time="0.005" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testPercentageNotSeenAsPhoneNumber" time="0.001" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testPhoneNumberWithLeadingOrTrailingMoneyMatches" time="0.009" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithSurroundingLatinCharsAndLeadingPunctuation" time="0.024" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithSurroundingChineseChars" time="0.008" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithSurroundingPunctuation" time="0.01" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesMultiplePhoneNumbersSeparatedByPhoneNumberPunctuation" time="0.001" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithPossibleLeniency" time="0.007" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNonMatchingBracketsAreInvalid" time="0.002" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNoMatchIfRegionIsNull" time="0.0" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNoMatchInEmptyString" time="0.0" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNoMatchIfNoNumber" time="0.0" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testSequences" time="0.0" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNullInput" time="0.0" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMaxMatches" time="0.011" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMaxMatchesInvalid" time="0.001" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMaxMatchesMixed" time="0.003" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNonPlusPrefixedNumbersNotFoundForInvalidRegion" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMaxMatchesInvalid" time="0.007" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMaxMatchesMixed" time="0.012" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNonPlusPrefixedNumbersNotFoundForInvalidRegion" time="0.002" />
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testEmptyIteration" time="0.0" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testSingleIteration" time="0.001" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testDoubleIteration" time="0.001" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testSingleIteration" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testDoubleIteration" time="0.002" />
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testRemovalNotSupported" time="0.0" />
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testContainsMoreThanOneSlashInNationalNumber" time="0.001" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindNationalNumber" time="0.4" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindWithInternationalPrefixes" time="0.43" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindWithLeadingZero" time="0.141" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindNationalNumberArgentina" time="0.539" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindWithXInNumber" time="0.077" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindNumbersMexico" time="0.204" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindNumbersWithPlusWithNoRegion" time="0.107" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindExtensions" time="1.277" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindInterspersedWithSpace" time="0.086" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testIntermediateParsePositions" time="0.002" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindNationalNumber" time="0.361" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindWithInternationalPrefixes" time="0.333" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindWithLeadingZero" time="0.099" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindNationalNumberArgentina" time="0.38" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindWithXInNumber" time="0.082" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindNumbersMexico" time="0.209" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindNumbersWithPlusWithNoRegion" time="0.115" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindExtensions" time="1.233" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFindInterspersedWithSpace" time="0.053" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testIntermediateParsePositions" time="0.001" />
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testFourMatchesInARow" time="0.001" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testDoesNotMatchMultiplePhoneNumbersSeparatedWithNoWhiteSpace" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesFoundWithMultipleSpaces" time="0.001" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchWithSurroundingZipcodes" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testIsLatinLetter" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithSurroundingLatinChars" time="0.003" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMoneyNotSeenAsPhoneNumber" time="0.001" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNonMatchingBracketsAreInvalid" time="0.001" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNoMatchIfRegionIsNull" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNoMatchInEmptyString" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNoMatchIfNoNumber" time="0.001" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testSequences" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNullInput" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMaxMatches" time="0.006" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testPercentageNotSeenAsPhoneNumber" time="0.001" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testPhoneNumberWithLeadingOrTrailingMoneyMatches" time="0.005" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithSurroundingLatinCharsAndLeadingPunctuation" time="0.011" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithSurroundingChineseChars" time="0.005" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithSurroundingPunctuation" time="0.006" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesMultiplePhoneNumbersSeparatedByPhoneNumberPunctuation" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testDoesNotMatchMultiplePhoneNumbersSeparatedWithNoWhiteSpace" time="0.001" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithPossibleLeniency" time="0.004" />
   <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNonMatchesWithPossibleLeniency" time="0.001" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithValidLeniency" time="0.007" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNonMatchesWithValidLeniency" time="0.004" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithStrictGroupingLeniency" time="0.032" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNonMatchesWithStrictGroupLeniency" time="0.021" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithExactGroupingLeniency" time="0.01" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNonMatchesExactGroupLeniency" time="0.017" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithValidLeniency" time="0.004" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNonMatchesWithValidLeniency" time="0.003" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithStrictGroupingLeniency" time="0.016" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNonMatchesWithStrictGroupLeniency" time="0.01" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testMatchesWithExactGroupingLeniency" time="0.008" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberMatcherTest" name="testNonMatchesExactGroupLeniency" time="0.015" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

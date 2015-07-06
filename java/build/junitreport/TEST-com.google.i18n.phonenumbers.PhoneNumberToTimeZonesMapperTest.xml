@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="gt-Latitude-E5420" name="com.google.i18n.phonenumbers.PhoneNumberToTimeZonesMapperTest" tests="3" time="0.019" timestamp="2015-05-13T14:58:01">
+<testsuite errors="0" failures="0" hostname="Int-NbDes-LCohn" name="com.google.i18n.phonenumbers.PhoneNumberToTimeZonesMapperTest" tests="3" time="0.014" timestamp="2015-07-06T17:17:29">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib" />
@@ -83,11 +83,11 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="junit" />
   </properties>
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToTimeZonesMapperTest" name="testGetTimeZonesForNumber" time="0.013" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToTimeZonesMapperTest" name="testGetTimeZonesForValidNumber" time="0.003" />
-  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToTimeZonesMapperTest" name="testGetTimeZonesForValidNumberSearchingAtCountryCodeLevel" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToTimeZonesMapperTest" name="testGetTimeZonesForValidNumberSearchingAtCountryCodeLevel" time="0.005" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToTimeZonesMapperTest" name="testGetTimeZonesForNumber" time="0.005" />
+  <testcase classname="com.google.i18n.phonenumbers.PhoneNumberToTimeZonesMapperTest" name="testGetTimeZonesForValidNumber" time="0.0" />
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[may 13, 2015 11:58:01 AM com.google.i18n.phonenumbers.PhoneNumberUtil getRegionCodeForNumber
+  <system-err><![CDATA[jul 06, 2015 2:17:29 PM com.google.i18n.phonenumbers.PhoneNumberUtil getRegionCodeForNumber
 ADVERTENCIA: Missing/invalid country_code (999) for number 2423651234
 ]]></system-err>
 </testsuite>
