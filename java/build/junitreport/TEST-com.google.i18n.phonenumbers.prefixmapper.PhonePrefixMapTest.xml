@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Int-NbDes-LCohn" name="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" tests="13" time="0.011" timestamp="2015-07-06T19:53:22">
+<testsuite errors="0" failures="0" hostname="Int-NbDes-LCohn" name="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" tests="13" time="0.011" timestamp="2015-09-01T16:43:02">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib" />
@@ -83,6 +83,7 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="junit" />
   </properties>
+  <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testGetSmallerMapStorageChoosesDefaultImpl" time="0.001" />
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testGetSmallerMapStorageChoosesFlyweightImpl" time="0.0" />
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testLookupInvalidNumber_US" time="0.0" />
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testLookupNumber_NJ" time="0.0" />
@@ -90,12 +91,11 @@
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testLookupNumber_CA_1" time="0.0" />
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testLookupNumber_CA_2" time="0.0" />
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testLookupNumberFound_TX" time="0.0" />
-  <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testLookupNumberNotFound_TX" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testLookupNumberNotFound_TX" time="0.005" />
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testLookupNumber_CH" time="0.0" />
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testLookupNumber_IT" time="0.0" />
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testReadWriteExternalWithDefaultStrategy" time="0.001" />
   <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testReadWriteExternalWithFlyweightStrategy" time="0.0" />
-  <testcase classname="com.google.i18n.phonenumbers.prefixmapper.PhonePrefixMapTest" name="testGetSmallerMapStorageChoosesDefaultImpl" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

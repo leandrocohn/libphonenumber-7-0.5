@@ -3,14 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.googlecode.libphonenumber</groupId>
   <artifactId>libphonenumber</artifactId>
-  <version>7.0.6_fix-bug-559-565</version>
+  <version>7.0.5.1_fix-bug-559-565</version>
   <packaging>jar</packaging>
   <url>https://github.com/googlei18n/libphonenumber/</url>
 
   <parent>
     <groupId>com.googlecode.libphonenumber</groupId>
     <artifactId>libphonenumber-parent</artifactId>
-    <version>7.0.6_fix-bug-559-565</version>
+    <version>7.0.5.1_fix-bug-559-565</version>
   </parent>
 
   <build>
