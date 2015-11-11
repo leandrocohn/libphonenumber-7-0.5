@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Int-NbDes-LCohn" name="com.google.i18n.phonenumbers.ExampleNumbersTest" tests="15" time="0.676" timestamp="2015-09-01T16:42:56">
+<testsuite errors="0" failures="0" hostname="Int-NbDes-LCohn" name="com.google.i18n.phonenumbers.ExampleNumbersTest" tests="15" time="0.521" timestamp="2015-09-01T19:45:28">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib" />
@@ -83,21 +83,21 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="junit" />
   </properties>
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testFixedLine" time="0.19" />
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testMobile" time="0.068" />
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testTollFree" time="0.059" />
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testPremiumRate" time="0.033" />
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testVoip" time="0.028" />
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testPager" time="0.022" />
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testUan" time="0.022" />
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testVoicemail" time="0.021" />
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testSharedCost" time="0.022" />
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testGlobalNetworkNumbers" time="0.003" />
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testEveryRegionHasAnExampleNumber" time="0.054" />
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testShortNumbersValidAndCorrectCost" time="0.088" />
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testEmergency" time="0.036" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testMobile" time="0.116" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testTollFree" time="0.047" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testPremiumRate" time="0.034" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testVoip" time="0.048" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testPager" time="0.017" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testUan" time="0.026" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testVoicemail" time="0.019" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testSharedCost" time="0.015" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testCanBeInternationallyDialled" time="0.016" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testEveryRegionHasAnExampleNumber" time="0.021" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testGlobalNetworkNumbers" time="0.002" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testShortNumbersValidAndCorrectCost" time="0.08" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testEmergency" time="0.029" />
   <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testCarrierSpecificShortNumbers" time="0.004" />
-  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testCanBeInternationallyDialled" time="0.021" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testFixedLine" time="0.042" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -10,7 +10,7 @@
   <parent>
     <groupId>com.googlecode.libphonenumber</groupId>
     <artifactId>libphonenumber-parent</artifactId>
-    <version>7.0.5.1_fix-bug-559-565</version>
+    <version>7.0.5.2_fix-bug-559-565</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
@@ -47,7 +47,7 @@
     <dependency>
       <groupId>com.googlecode.libphonenumber</groupId>
       <artifactId>libphonenumber</artifactId>
-      <version>7.0.5.1_fix-bug-559-565</version>
+      <version>7.0.5.2_fix-bug-559-565</version>
     </dependency>
   </dependencies>
 
